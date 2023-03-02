@@ -1,0 +1,28 @@
+1: What is a CSS selector?
+    A CSS selector is the element that you are wanting to target to style such as the <a> tag. 
+
+2: What is a CSS Declaration? 
+    A CSS declaration is what is wrapped in the {} curly braces.
+
+3: What is a CSS Property?
+    A property is what you want to style within the selector, which can include font-weight, background-color, text-decoration and more.
+
+4: What is a CSS value? 
+    It is the value you give to the property. If I want to underline my text I can set it up as text-decoration: underline;. The underline is the value you are giving.
+
+5: What are three ways to include CSS?
+    You can use the <style> element, External stylesheet using the <link> element....This is the most common way. Lastly, you can do an Inline style, which is NOT recommended. 
+
+6: What is the difference between rgb and rgba?
+    rgb is the balance or red, blue, and green with no alpha. Rgba has an alpha setting where you can adjust basically the transparancy of the color.
+
+7: What is em?
+    em is font-size that is relative to the parent element. 3em means 3 times as big as the relative parent element it is looking at. 
+
+
+8:What is the difference between em and the rem? 
+    The difference here is that em is relative to the parent font-size, where the rem is relative to the root of the HTML document. 
+
+9:How do you include a google font? 
+    You go to the google fonts page and search for the font you want and put it in the <head> of the html document and then refer to it using the CSS file. 
+

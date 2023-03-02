@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock 1</title>
+</head>
+    <body>
+        <h1>This is your first HTML page!</h1>
+        <h3>Seems like things are going pretty well so far</h3>
+        <h6>Let's add a recipe for some delicious chocolate chip cookies</h6>
+
+        <p>
+            We're going to borrow a nice picture from General Mills
+        </p>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2ChocolateChipCookies.jpg/1920px-2ChocolateChipCookies.jpg" 
+            alt="Choclate Chip Cookie" 
+            height="250" width="250"
+        >
+
+        <p>
+            Here is what the recipe calls for
+        </p>
+            <ul> 
+                <b>Ingredients</b> (probably not right...)
+                <li>6 Eggs</li>
+                <li>2 Cups of flour</li>
+                <li>2 Tablespoons of Vanilla extract</li>
+                <li>2 Teasppons of backing powder</li>
+                <li>1 Cup of sugar</li>
+            </ul>
+        </menu>
+
+        <ol>
+            <b>Instructions</b> (may or may not be correct) 
+            <li>Add eggs, flour and vanilla extract and mix</li>
+            <li>Combine with sugar and baking powder and stir</li>
+            <li>Eat half the cookie batter because it is delicious</li>
+            <li>Take the rest of the cookie batter and make cookies</li>
+            <li>Bake at 350 for 25 minutes</li>
+            <li>Enjoy!</li>
+        </ol>
+        <hr>
+        <p>
+            Oh you don't trust us? You want to see the actual recipe? You can view it right 
+            <a href="https://www.generalmillscf.com/recipes/chocolate-chip-cookies/0c8370e3-e42d-4282-b645-514e8daf2371">
+                Here
+            </a>
+        </p>
+
+        <h3>Use Google Search to find more about cookies!</h3>
+        <form action="https://www.google.com/search" method="get">
+            <!-- You can nest labels or you can give the input an id='searchbar' and give the label the attribute for='searchbar.' 
+                They do the same thing. Both make it easy on screen readers and ability to click text. -->
+            <label>
+                Want to find more cookie recipes?
+                <input type="text" name="q" placeholder="Search Google">
+            </label>
+            <br>
+            <label>
+                Select how you want to sort:
+                <select name="source">
+                    <option value="Inms">Images</option>
+                </select>
+            </label>
+            <button type="submit">Search!</button>
+        </form>
+        <!-- This doesn't actually work at the moment. -->
+        <br>
+        <form method="post" enctype="multipart/form-data">
+            <label>
+                Choose file:
+                <input type="file" name="my-file">
+            </label>
+            <br>
+            <button type="submit">Upload</button>
+        </form>
+    </body>
+</html>
