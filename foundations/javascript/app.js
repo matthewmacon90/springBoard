@@ -35,16 +35,16 @@ const count = () => {
 */
 
 //Part 3:
-let randomNum = Math.random();
-let result = randomNum > 0.5 ? console.log('Over 0.5') : console.log('Under 0.5');
+// let randomNum = Math.random();
+// let result = randomNum > 0.5 ? console.log('Over 0.5') : console.log('Under 0.5');
 
-if (randomNum > 0.5) {
-    console.log('Over 0.5');
-} else if (randomNum < 0.5) {
-    console.log('Under 0.5');
-} else {
-    console.log('Right on the money!');
-};
+// if (randomNum > 0.5) {
+//     console.log('Over 0.5');
+// } else if (randomNum < 0.5) {
+//     console.log('Under 0.5');
+// } else {
+//     console.log('Right on the money!');
+// };
 
 /*
     2: A falsey value is something that comes back as boolean false. 
@@ -56,3 +56,18 @@ if (randomNum > 0.5) {
     false
     NaN
 */
+
+const countingString = (string) => {
+    // string = string.length;
+    console.log('this is the length of the string: ', string.length); //string.length gets the number of the string which is 5 in this case...however the index is always -1 so 4 for the index because we count from 0;
+    console.log(`This is the letter: ${string[5]} within string.`);
+}
+// countingString('hello');
+
+
+const sortArray = (arr) => {
+    arr.sort((a,b) => a -b);
+    console.log('arr sorted', arr);
+};
+
+sortArray([1,100000,10,222,34,5,6,7777,8]);
